@@ -59,7 +59,7 @@ names(ttdata) <- c(selectedfeatures$name, "activity", "subject")
 
 ## aggregates the data on the activity and subject column
 ## and stores it into a result variable
-result <- aggregate(x=ttdata[,!names(ttdata) %in% c("activity", "subject")], by=list(ttdata$activity, ttdata$subject), FUN=mean)
-
+result <- aggregate(x=ttdata[,!names(ttdata) %in% c("activity", "subject")], by=list(activity=ttdata$activity, subject=ttdata$subject), FUN=mean)
+                   
 ## writes the table to a file "run_analysis.txt"
-write.table(result, file = "run_analysis.txt", row.names = FALSE)
+write.table(result, file = "run_analysis.txt", append= FALSE, row.names = FALSE)
