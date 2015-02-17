@@ -20,4 +20,4 @@ The "run_analysis.R" script is devided into 5 (+1 additional) parts.
 <li>Appropriately labels the data set with descriptive variable names.</li>
 <li>From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.</il>
 <li>Writes the output to file named '" run_analysis.txt"</li>
-</ol>
+</ol> 
