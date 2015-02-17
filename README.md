@@ -19,4 +19,7 @@ This project consists of the following files:
 <li><strong>run_analysis.txt:</strong> Export file of the script run_analysis.R.</li>
 </ul>
 
+## Explanation of the script
+blabla
+
 Roy de Groot
