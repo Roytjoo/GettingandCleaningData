@@ -10,9 +10,10 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 This project consists of the following files:
 <ul>
-<li><strong>run_analysis.R:</strong> the R-script that runs the analysis</li>
-<li><strong>CodeBook.md:</strong> Mark-up file to dscribe the functions, variables taht are used in the run_analysis.R script</li>
-<li><strong>run_analysis.txt:</strong> Export file of the script run_analysis.R</li>
+<li><strong>README.md</strong> This README file that the describes the repository.</li>
+<li><strong>run_analysis.R:</strong> the R-script that runs the analysis.</li>
+<li><strong>CodeBook.md:</strong> Mark-up file to dscribe the functions, variables taht are used in the run_analysis.R script.</li>
+<li><strong>run_analysis.txt:</strong> Export file of the script run_analysis.R.</li>
 </ul>
 
 The "run_analysis.R" script is devided into several numbered parts.
