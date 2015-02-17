@@ -8,6 +8,9 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 The actual data that is and can be used:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
+The assignment documentation can be found on: 
+https://class.coursera.org/getdata-011/human_grading/view/courses/973498/assessments/3/submissions
+
 This project consists of the following files:
 <ul>
 <li><strong>README.md</strong> This README file that the describes the repository.</li>
