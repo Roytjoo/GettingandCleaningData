@@ -2,7 +2,7 @@
 
 The script "run_analysis.R" runs an analysis on data collected from the accelerometers from the Samsung Galaxy S smartphone.
 
-More information about the data: 
+More information about the data:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 The actual data that is and can be used:
