@@ -1,5 +1,6 @@
 # Getting and Cleaning Data - Course Project
 
+## Introduction
 The script "run_analysis.R" runs an analysis on data collected from the accelerometers from the Samsung Galaxy S smartphone.
 
 More information about the data:
