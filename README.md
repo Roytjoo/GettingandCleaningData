@@ -26,9 +26,10 @@ This project consists of the following files:
 The "train/X_train.txt" is read with the fucntion "read.table" and stored in train. The "train/y_train.txt" and "train/subject_train.txt" are binded as a new columns with the function cbind. For the test sets this is equivalent only with the test files and stored in the test variable. The two sets train and test are combined with the function rbind.</li>
 <li><strong>Extracts only the measurements on the mean and standard deviation for each measurement.</strong>
 The "features.txt" file is read in into the variable features with the function "read.table". The two colomns of the fatures data.frame are renamead as "column" and "name". A new dataframe "selectedfeatures" is created by filtering only the features with the text "mean()" or "std()". The data in ttdata is filtered with the selectedfeatures </li> 
-<li><strong>Uses descriptive activity names to name the activities in the data set.</strong></li>
-<li><strong>Appropriately labels the data set with descriptive variable names.</strong></li>
-<li><strong>From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.</strong></li>
+<li><strong>Uses descriptive activity names to name the activities in the data set.</strong>
+Reads in the activities labels with the function "read.table" in to a variable "activities". Converts the activities column in the data.frame "ttdata" to a factor with the "activities" variable</li>
+<li><strong>Appropriately labels the data set with descriptive variable names.</strong>Sets the names of the columns of the data.frame "ttdata" to the names from the features together with "activity" and "subject".</li>
+<li><strong>From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.</strong>Aggregates the data with the function "aggregate" grouped by the two columns "subject" and "activity" and applies the function meand to all the other columns.</li>
 <li><strong>Writes the result to a file.</strong>
 writes result the table to a file "run_analysis.txt".</li>
 </ol>
