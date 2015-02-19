@@ -22,11 +22,11 @@ This project consists of the following files:
 
 ## Explanation of the script
 <ol>
-<li>1. Merges the training and the test sets to create one data set. 
+<li><strong>Merges the training and the test sets to create one data set.</strong>
 The "train/X_train.txt" is read with the fucntion "read.table" and stored in train. The "train/y_train.txt" and "train/subject_train.txt" are binded as a new columns with the function cbind. For the test sets this is equivalent only with the test files and stored in the test variable. The two sets train and test are combined with the function rbind.</li>
-<li>2. Extracts only the measurements on the mean and standard deviation for each measurement.
+<li><strong>Extracts only the measurements on the mean and standard deviation for each measurement.</strong>
 The "features.txt" file is read in into the variable features with the function "read.table". The two colomns of the fatures data.frame are renamead as "column" and "name". A new dataframe "selectedfeatures" is created by filtering only the features with the text "mean()" or "std()". The data in ttdata is filtered with the selectedfeatures </li> 
-<li>6. Writes the result to a file
+<li><strong>Writes the result to a file</strong>
 writes result the table to a file "run_analysis.txt".</li>
 </ol>
 
